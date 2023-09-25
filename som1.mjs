@@ -2,10 +2,6 @@ import * as readline from 'node:readline/promises';
 import{stdin as input, stdout as output} from 'node:process';
 const userInput = readline.createInterface({input, output});
 
-
-
-
-
 /*
 let som;
 let getal1 = 51;
@@ -22,5 +18,5 @@ console.log('Je getal maal 2 is gelijk aan '+ (jeGetal + 5));
 
 
 let jegetal = parseFloat(await userInput.question('Geef een getal in:'));
-console.log('de som van je getal en 2 is:'+ (jegetal + 2));
+console.log('de som van je getal en 2 is: '+ (jegetal + 2));
 
